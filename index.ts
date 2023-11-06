@@ -45,7 +45,7 @@ let 재민 :MyObject1 = {
 }
 
 type Myobject2 = {
-    // 글자로 된 모든 object 속성의 타입은 :string
+    // 글자로 된 모든 object 속성의 타입은 :number
     [key :string] : number,
 }
 let 철수 :Myobject2 = { 
